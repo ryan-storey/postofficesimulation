@@ -1,0 +1,11 @@
+# sd means standard deviation
+
+numServicePoints 3
+maxQueueLength 10
+closingTime 100
+averageNewCustomersPerInterval 3
+sdNewCustomersPerInterval 2
+averageCustomerPatience 5
+sdCustomerPatience 4
+averageTaskTime 2
+sdTaskTime 1

@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <gsl/gsl_rng.h>
+#include <gsl/gsl_randist.h>
+#include <linkedlist.h>
+#include <parameters.h>
+#include <customers.h>
+#include <servicepoints.h>
+#include <filehandling.h>

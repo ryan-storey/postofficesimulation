@@ -1,0 +1,12 @@
+gcc -ansi -I./ -c linkedlist.c -o linkedlist.o
+gcc -ansi -I./ -c customers.c -o customers.o
+gcc -ansi -I./ -c parameters.c -o parameters.o
+gcc -ansi -I./ -c filehandling.c -o filehandling.o
+gcc -ansi -I./ -c servicepoints.c -o servicepoints.o
+gcc -ansi -I./ -c simQ.c -o simQ.o
+gcc simQ.o servicepoints.o filehandling.o parameters.o customers.o linkedlist.o -lgsl -lgslcblas -o simQ
+
+
+
+
+
